@@ -1,0 +1,4 @@
+baseURL = "https://blog.bingoai.tk/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+them = "ananke"
