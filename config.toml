@@ -1,4 +1,9 @@
 baseURL = "https://blog.bingoai.tk/"
 languageCode = "en-us"
 title = "Yet Another Blog by Hugo"
-theme = "ananke"
+theme = "harbor"
+
+paginate = 3
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
