@@ -1,9 +1,56 @@
 baseURL = "https://blog.bingoai.tk/"
 languageCode = "en-us"
-title = "Yet Another Blog by Hugo"
-theme = "harbor"
+title = "Yet Another BingoH's Blog"
+theme = "cactus"
+copyright = "Bingo.H"
 
-paginate = 3
-DefaultContentLanguage = "en"
-enableInlineShortcodes = true
-footnoteReturnLinkContents = "^"
+#######################
+# cactus config
+#######################
+# main menu which appears below site header
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+#
+[params]
+colortheme = "light"    # dark, light, white, classic
+mathjax = true  # enable/disable mathjax 
+rss = true      # enable/disable rss
+
+### home page settings
+# main section (used as the link for the writings title on homepage)
+mainSection = "posts"
+# show only five most recent posts
+showAllPostsOnHomePage = false
+postsOnHomePage = 5
+# show tagsoverview or not
+tagsOverview = false
+# show projects list or not
+showProjectList = false
+projectsUrl = "https://github.com/bingoh"
+
+# social media links
+[[params.social]]
+name = "github"
+link = "https://github.com/bingoh"
+
+[[params.social]]
+name = "email"
+link = "hong7083@gmail.com"
