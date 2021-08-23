@@ -1,4 +1,4 @@
-baseURL = "https://blog.bingoai.tk/"
+baseURL = "https://blog.bingoai.ml"
 languageCode = "en-us"
 title = "Yet Another BingoH's Blog"
 theme = "cactus"
