@@ -1,7 +1,7 @@
 ---
 title: "迁移站点"
 date: 2021-08-23T13:16:50Z
-draft: true
+draft: false
 ---
 迁移本站点需要做的。
 <!--more-->
