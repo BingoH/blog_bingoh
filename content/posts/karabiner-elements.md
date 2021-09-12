@@ -1,5 +1,5 @@
 ---
-title:"karabiner settings"
+title: "karabiner settings"
 date: 2021-08-23T13:16:50Z
 draft: false
 ---
